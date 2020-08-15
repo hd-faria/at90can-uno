@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# FT232RL-REEL-dk_Interface-Controllers
+#
+DEF FT232RL-REEL-dk_Interface-Controllers U 0 40 Y Y 1 F N
+F0 "U" -500 450 60 H V C CNN
+F1 "FT232RL-REEL-dk_Interface-Controllers" -100 -800 60 V V L CNN
+F2 "digikey-footprints:SSOP-28_W5.30mm" 200 200 60 H I L CNN
+F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" 200 300 60 H I L CNN
+F4 "768-1007-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "FT232RL-REEL" 200 500 60 H I L CNN "MPN"
+F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
+F7 "Interface - Controllers" 200 700 60 H I L CNN "Family"
+F8 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/ftdi-future-technology-devices-international-ltd/FT232RL-REEL/768-1007-1-ND/1836402" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "IC USB FS SERIAL UART 28-SSOP" 200 1000 60 H I L CNN "Description"
+F11 "FTDI, Future Technology Devices International Ltd" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S -600 400 300 -1100 0 1 0 f
+X TXD 1 400 -100 100 L 50 50 1 1 O
+X DCD 10 -700 -400 100 R 50 50 1 1 I
+X CTS 11 -700 -500 100 R 50 50 1 1 I
+X CBUS4 12 -700 -600 100 R 50 50 1 1 B
+X CBUS2 13 -700 -700 100 R 50 50 1 1 B
+X CBUS3 14 -700 -800 100 R 50 50 1 1 B
+X USBDP 15 -700 300 100 R 50 50 1 1 B
+X USBDM 16 -700 200 100 R 50 50 1 1 B
+X 3V3OUT 17 400 100 100 L 50 50 1 1 P
+X GND 18 -100 -1200 100 U 50 50 1 1 W
+X RESET 19 -700 100 100 R 50 50 1 1 I
+X DTR 2 400 -200 100 L 50 50 1 1 O
+X VCC 20 -100 500 100 D 50 50 1 1 W
+X GND 21 0 -1200 100 U 50 50 1 1 W
+X CBUS1 22 -700 -900 100 R 50 50 1 1 B
+X CBUS0 23 -700 -1000 100 R 50 50 1 1 B
+X NC 24 400 -600 100 L 50 50 1 1 N
+X AGND 25 100 -1200 100 U 50 50 1 1 W
+X TEST 26 200 -1200 100 U 50 50 1 1 W
+X OSCI 27 -700 0 100 R 50 50 1 1 I
+X OSCO 28 400 0 100 L 50 50 1 1 O
+X RTS 3 400 -300 100 L 50 50 1 1 O
+X VCCIO 4 -200 500 100 D 50 50 1 1 W
+X RXD 5 -700 -100 100 R 50 50 1 1 I
+X RI 6 -700 -200 100 R 50 50 1 1 I
+X GND 7 -200 -1200 100 U 50 50 1 1 W
+X NC 8 400 -500 100 L 50 50 1 1 N
+X DSR 9 -700 -300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
